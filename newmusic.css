@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 body, html {
   font-family: 'Share Tech Mono', monospace;
   background-color: #121;
