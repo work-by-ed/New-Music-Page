@@ -2,6 +2,9 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title></title>
 
     <link rel="stylesheet" href="newmusic.css">
@@ -12,6 +15,23 @@
 <!-- this is a test done at 12:34pm on 9-15-18 -->
 
   <body>
+
+    <nav id="nav">
+  <a class="clickr fas fa-bars">  <div id="nav-icon3">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+</a>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="music.html">Music</a></li>
+    <li><a href="videos.html">Videos</a></li>
+    <li><a href="https://adot.bigcartel.com/" target="_blank">Store</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 
   <!-- <div class="screen">
 <section class="buttonGroup">
@@ -76,6 +96,17 @@ Sed rhoncus a leo congue sollicitudin. Fusce risus tortor, rutrum id egestas at,
 -->
 
 </div>
+
+<script type="text/javascript">
+  $('.clickr').click(function(){
+  $('#nav ul').slideToggle(300);
+});
+  $(document).ready(function(){
+  $('#nav-icon3').click(function(){
+    $(this).toggleClass('open');
+  });
+});
+</script>
 
   </body>
 </html>
