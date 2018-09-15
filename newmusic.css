@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  overflow-y: hidden;
 }
 
 @font-face {
@@ -22,7 +21,7 @@ body, html {
   font-family: 'Share Tech Mono', monospace;
   background-color: #121;
   box-shadow: inset 0 0 200px #020;
-  height: 100%;
+  height: auto;
   background: linear-gradient(to bottom, #001100 0%, #111311 100%);
   color: #0f0;
   font-size: 16px;
@@ -376,7 +375,6 @@ iframe#iframeVideo {
   width: 100%;
   /*background: rgba(49, 49, 49, 0.85);*/
   margin: 0 auto;
-  margin-top: 2em;
   border-radius: .25em;
   overflow: auto;
 }
