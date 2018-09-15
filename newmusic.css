@@ -97,7 +97,7 @@ button:hover, hr, img {
 
 body {
   padding: 20px;
-  animation: twitch 0.5s infinite;
+  /*animation: twitch 0.5s infinite;*/
   background: repeating-linear-gradient(0deg, #000, #000 2px, #020 2px, #020 4px);
 }
 
@@ -214,8 +214,9 @@ iframe#iframeVideo {
 }
 
 .buttonGroup {
-  width: 33.3%;
-  padding: 0 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .buttonGroup hr {
