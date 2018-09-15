@@ -98,13 +98,15 @@ button:hover, hr, img {
 body {
   padding: 20px;
   /*animation: twitch 0.5s infinite;*/
+  animation: twitch 0.2s infinite;
   background: repeating-linear-gradient(0deg, #000, #000 2px, #020 2px, #020 4px);
 }
 
 .screen {
   font-family: 'Share Tech Mono', monospace;
   display: flex;
-  animation: flicker 0.001s infinite;
+  /*animation: flicker 0.001s infinite;*/
+  animation: flicker 1s infinite;
   mix-blend-mode: screen;
 
 }
@@ -151,13 +153,13 @@ button:visited {
 }
 
 .imageDisplay {
-  text-align: center;
-  width: 100%;
-  height: 166px;
-  border: 2px solid #0f0;
-  position: relative;
-  overflow: hidden;
-  mix-blend-mode: multiply;
+    text-align: center;
+    width: 100%;
+    height: 166px;
+    /* border: 2px solid #0f0; */
+    position: relative;
+    /* overflow: hidden; */
+    /* mix-blend-mode: multiply; */
 }
 
 .imageDisplay video {
